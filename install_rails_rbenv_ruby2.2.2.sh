@@ -1,5 +1,7 @@
 #!/bin/bash
-# Bash Menu Script Example
+
+# run this command to install (without the #)
+# bash <(curl -s https://raw.githubusercontent.com/future-youth-camp/snippets/master/install_rails_rbenv_ruby2.2.2.sh)
 
 PS3='Please enter your choice: '
 options=("Install ruby" "Quit")
