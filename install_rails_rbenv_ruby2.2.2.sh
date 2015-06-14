@@ -10,5 +10,5 @@ rbenv install 2.2.2
 rbenv global 2.2.2
 gem update --system
 gem install rails
-rails new test
+rails new ~/test-app
 cd test; bundle install; cd ..; rm -rfv test
