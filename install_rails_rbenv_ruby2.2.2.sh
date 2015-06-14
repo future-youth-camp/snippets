@@ -11,4 +11,7 @@ rbenv global 2.2.2
 gem update --system
 gem install rails
 rails new ~/test-app
-cd test; bundle install; cd ..; rm -rfv test
+rm -rf ~/test-app
+touch ~/.railsrc
+echo '--skip-bundle #skips bundle install on generating a new rails app' >> ~/.railsrc
+echo '--skip-test-unit #skips making the test unit folders (rspec is better and comeon.. newbies)' >> ~/.railsrc
