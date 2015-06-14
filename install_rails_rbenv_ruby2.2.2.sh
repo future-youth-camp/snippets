@@ -9,6 +9,7 @@ source ~/.bashrc
 rbenv install 2.2.2
 rbenv global 2.2.2
 gem update --system
+gem install bundler
 gem install rails
 rails new ~/test-app
 rm -rf ~/test-app
