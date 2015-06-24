@@ -10,3 +10,7 @@ $("#btn3").slideDown()
 $("#btn3").click(function(){
   $("#btn3").fadeOut().slideDown()
 })
+
+$(document).ready(function(){
+ /* DO STUFF, ALL IS DOWNLOADED */
+})
