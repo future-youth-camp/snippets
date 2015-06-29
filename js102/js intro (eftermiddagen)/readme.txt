@@ -1,0 +1,1 @@
+För att köra serven för att använda JSON, navigera till denna mapp i Terminalen och  skriv sedan node server.js

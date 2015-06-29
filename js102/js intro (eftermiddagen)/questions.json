@@ -1,0 +1,24 @@
+[
+	{
+		"question": "What color is the sky",
+		
+		"answers": [
+			"red", "blue", "yellow", "green", "monkey"
+		],
+		"correct": 1
+	},
+	{
+		"question": "What color dose a lemon have",
+		"answers": [
+			"yellow", "green", "unicorn"
+		],
+		"correct": 0
+	},
+	{
+		"question": "Vad heter Isak",
+		"answers": [
+			"Peter", "Isak", "Madonna", "Elin"
+		],
+		"correct": 1
+	}
+]
